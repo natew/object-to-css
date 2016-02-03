@@ -10,7 +10,7 @@ module.exports = function createMarkup(obj) {
   for (i = 0; i < len; i++) {
     var key = keys[i]
     var val = obj[key]
-    result += hyphenate(key) + ':' + addPx(key, val)
+    result += hyphenate(key) + ':' + addPx(key, val) + ';'
   }
 
   return result
