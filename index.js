@@ -1,5 +1,5 @@
-import addPx from 'add-px-to-style'
-import hyphenate from 'hyphenate-style-name'
+var addPx = require('add-px-to-style')
+var hyphenate = require('hyphenate-style-name')
 
 module.exports = function createMarkup(obj) {
   let keys = Object.keys(obj)
