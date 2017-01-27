@@ -1,6 +1,6 @@
 {
   "name": "object-to-css",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert a JS object to CSS string. Similar to React's output of CSS, extracted into a module.",
   "main": "index.js",
   "scripts": {},
